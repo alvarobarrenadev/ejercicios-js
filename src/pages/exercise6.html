@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ejercicio 6 - Temporizador Pro</title>
+  </head>
+  <body>
+    <div class="exercise6">
+      <!-- Decorative background blobs -->
+      <div class="exercise6__blob exercise6__blob--1" aria-hidden="true"></div>
+      <div class="exercise6__blob exercise6__blob--2" aria-hidden="true"></div>
+
+      <main class="exercise6__card">
+        <header class="exercise6__header">
+          <span class="exercise6__badge">
+            <i class="fa-solid fa-stopwatch"></i>
+            Time Master
+          </span>
+          <h1 class="exercise6__title">Temporizador <span class="exercise6__title-highlight">Pro</span></h1>
+          <p class="exercise6__desc">Controla cada segundo con precisión milimétrica.</p>
+        </header>
+
+        <div class="exercise6__display">
+          <div id="temporizador" class="exercise6__time">00:00:00</div>
+          <div class="exercise6__progress-container">
+            <div id="progreso" class="exercise6__progress-bar"></div>
+          </div>
+        </div>
+
+        <div class="exercise6__controls">
+          <button id="btn-iniciar" class="exercise6__btn exercise6__btn--start" aria-label="Iniciar">
+            <i class="fa-solid fa-play"></i>
+            <span>Iniciar</span>
+          </button>
+          <button id="btn-pausar" class="exercise6__btn exercise6__btn--pause" aria-label="Pausar">
+            <i class="fa-solid fa-pause"></i>
+            <span>Pausar</span>
+          </button>
+          <button id="btn-reiniciar" class="exercise6__btn exercise6__btn--reset" aria-label="Reiniciar">
+            <i class="fa-solid fa-rotate-left"></i>
+            <span>Reiniciar</span>
+          </button>
+        </div>
+
+        <footer class="exercise6__footer">
+          <a href="../../index.html" class="exercise6__back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Volver al inicio
+          </a>
+        </footer>
+      </main>
+    </div>
+
+    <script type="module" src="../js/exercises/exercise6.js"></script>
+  </body>
+</html>
