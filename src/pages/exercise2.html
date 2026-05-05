@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ejercicio 2 - Contador de clics</title>
+  </head>
+  <body>
+    <div class="exercise2">
+      <!-- Decorative background blobs -->
+      <div class="exercise2__blob exercise2__blob--1" aria-hidden="true"></div>
+      <div class="exercise2__blob exercise2__blob--2" aria-hidden="true"></div>
+
+      <main class="exercise2__card">
+        <header class="exercise2__header">
+          <span class="exercise2__badge">
+            <i class="fa-solid fa-calculator"></i>
+            DOM Counter
+          </span>
+          <h1 class="exercise2__title">Contador de <span class="exercise2__title-highlight">Clics</span></h1>
+          <p class="exercise2__desc">Haz clic en el botón para incrementar el contador en tiempo real.</p>
+        </header>
+
+        <div class="exercise2__counter-wrapper">
+          <span id="contador" class="exercise2__number">0</span>
+        </div>
+
+        <button id="btn-contar" class="exercise2__button">
+          <i class="fa-solid fa-plus"></i>
+          Incrementar
+        </button>
+
+        <footer class="exercise2__footer">
+          <a href="../../index.html" class="exercise2__back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Volver al inicio
+          </a>
+        </footer>
+      </main>
+    </div>
+
+    <script type="module" src="../js/exercises/exercise2.js"></script>
+  </body>
+</html>
