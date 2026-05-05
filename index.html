@@ -1,15 +1,115 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Colección de ejercicios finales de JavaScript: cambiador de color, contador, lista dinámica, calculadora, temporizador y más." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ejercicios JavaScript</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Ejercicios finales JavaScript</h1>
-      
+    <div class="home">
+      <!-- Decorative background blobs -->
+      <div class="home__blob home__blob--1" aria-hidden="true"></div>
+      <div class="home__blob home__blob--2" aria-hidden="true"></div>
+      <div class="home__blob home__blob--3" aria-hidden="true"></div>
+
+      <header class="home__header">
+        <span class="home__badge">
+          <i class="fa-solid fa-layer-group home__badge-icon"></i>
+          ConquerBlocks
+        </span>
+        <h1 class="home__title">Ejercicios finales<br><span class="home__title-highlight">JavaScript</span></h1>
+        <p class="home__subtitle">9 mini-proyectos para dominar los fundamentos del lenguaje</p>
+      </header>
+
+      <main class="home__grid">
+        <a href="#" class="home__card" id="exercise-1">
+          <span class="home__card-number">01</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Cambiador de color de fondo</h2>
+            <p class="home__card-desc">Modifica dinámicamente el color del body con eventos.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-2">
+          <span class="home__card-number">02</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Contador de clics</h2>
+            <p class="home__card-desc">Incrementa, decrementa y resetea un contador interactivo.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-3">
+          <span class="home__card-number">03</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Lista dinámica</h2>
+            <p class="home__card-desc">Añade y elimina elementos del DOM en tiempo real.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-4">
+          <span class="home__card-number">04</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Filtro de búsqueda en tiempo real</h2>
+            <p class="home__card-desc">Filtra listas al instante con eventos de teclado.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-5">
+          <span class="home__card-number">05</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Calculadora sencilla</h2>
+            <p class="home__card-desc">Operaciones básicas con una interfaz funcional.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-6">
+          <span class="home__card-number">06</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Temporizador con inicio, pausa y reinicio</h2>
+            <p class="home__card-desc">Controla el tiempo con setInterval y clearInterval.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-7">
+          <span class="home__card-number">07</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Generador de contraseñas aleatorias</h2>
+            <p class="home__card-desc">Crea contraseñas seguras con Math.random().</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-8">
+          <span class="home__card-number">08</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Contador de palabras y caracteres</h2>
+            <p class="home__card-desc">Analiza texto en tiempo real con eventos de input.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+
+        <a href="#" class="home__card" id="exercise-9">
+          <span class="home__card-number">09</span>
+          <div class="home__card-content">
+            <h2 class="home__card-title">Lista de tareas con LocalStorage</h2>
+            <p class="home__card-desc">Persiste datos en el navegador con la Web Storage API.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right home__card-arrow"></i>
+        </a>
+      </main>
+
+      <footer class="home__footer">
+        <p>&copy; 2026 · Ejercicios JS · Álvaro Barrena Revilla</p>
+      </footer>
     </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
