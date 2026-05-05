@@ -7,11 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        // Puedes añadir más páginas así:
-        // location: resolve(__dirname, "location.html"),
-        // about: resolve(__dirname, 'about.html'),
-        // contact: resolve(__dirname, 'contact.html'),
-        // gallery: resolve(__dirname, 'gallery.html'),
+        exercise1: resolve(__dirname, "src/pages/exercise1.html"),
       },
     },
   },
