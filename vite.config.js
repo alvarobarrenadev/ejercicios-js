@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: "/ejercicios-js/", // Solo para Github Pages. Para desplegar en Vercel, solo poner /
+  base: "/ejercicios-js/",
   build: {
     rollupOptions: {
       input: {
@@ -10,6 +10,7 @@ export default defineConfig({
         exercise1: resolve(__dirname, "src/pages/exercise1.html"),
         exercise2: resolve(__dirname, "src/pages/exercise2.html"),
         exercise3: resolve(__dirname, "src/pages/exercise3.html"),
+        exercise4: resolve(__dirname, "src/pages/exercise4.html"),
       },
     },
   },
