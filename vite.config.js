@@ -11,6 +11,7 @@ export default defineConfig({
         exercise2: resolve(__dirname, "src/pages/exercise2.html"),
         exercise3: resolve(__dirname, "src/pages/exercise3.html"),
         exercise4: resolve(__dirname, "src/pages/exercise4.html"),
+        exercise5: resolve(__dirname, "src/pages/exercise5.html"),
       },
     },
   },
