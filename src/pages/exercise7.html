@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ejercicio 7 - Generador de Contraseñas</title>
+    <script type="module" crossorigin src="/ejercicios-js/assets/exercise7-Be4iIPe1.js"></script>
+    <link rel="modulepreload" crossorigin href="/ejercicios-js/assets/main-Dfx825wd.js">
+    <link rel="stylesheet" crossorigin href="/ejercicios-js/assets/main-CRpPlKDL.css">
+  </head>
+  <body>
+    <div class="exercise7">
+      <!-- Decorative background blobs -->
+      <div class="exercise7__blob exercise7__blob--1" aria-hidden="true"></div>
+      <div class="exercise7__blob exercise7__blob--2" aria-hidden="true"></div>
+
+      <main class="exercise7__card">
+        <header class="exercise7__header">
+          <span class="exercise7__badge">
+            <i class="fa-solid fa-shield-halved"></i>
+            Security Tool
+          </span>
+          <h1 class="exercise7__title">Generador de <span class="exercise7__title-highlight">Passwords</span></h1>
+          <p class="exercise7__desc">Crea contraseñas seguras y aleatorias al instante.</p>
+        </header>
+
+        <div class="exercise7__tool">
+          <div class="exercise7__input-group">
+            <label for="longitud" class="exercise7__label">Longitud de la contraseña</label>
+            <div class="exercise7__input-wrapper">
+              <i class="fa-solid fa-ruler-horizontal exercise7__input-icon"></i>
+              <input type="number" id="longitud" class="exercise7__input" placeholder="Ej: 12" min="4" max="50">
+            </div>
+          </div>
+
+          <button id="btn-generar" class="exercise7__btn">
+            <i class="fa-solid fa-key"></i>
+            Generar Contraseña
+          </button>
+
+          <div class="exercise7__result-container">
+            <div id="resultado" class="exercise7__result">Introduce una longitud...</div>
+            <button id="btn-copiar" class="exercise7__copy-btn" title="Copiar contraseña" disabled>
+              <i class="fa-solid fa-copy"></i>
+            </button>
+          </div>
+        </div>
+
+        <footer class="exercise7__footer">
+          <a href="../../index.html" class="exercise7__back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Volver al inicio
+          </a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import"./main-Dfx825wd.js";var e=[`#FF5733`,`#33FF57`,`#3357FF`,`#F1C40F`,`#8E44AD`,`#1ABC9C`,`#E74C3C`,`#2ECC71`,`#3498DB`,`#7F8C8D`,`#FF9F43`,`#0ABDE3`,`#EE5253`,`#10AC84`,`#5F27CD`],t=document.getElementById(`btn-color`),n=document.querySelector(`.exercise1`);t.addEventListener(`click`,()=>{let t=e[Math.floor(Math.random()*e.length)];n.style.backgroundColor=t});

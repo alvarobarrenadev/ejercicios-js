@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ejercicio 8 - Analizador de Texto</title>
+    <script type="module" crossorigin src="/ejercicios-js/assets/exercise8-BCRP9K92.js"></script>
+    <link rel="modulepreload" crossorigin href="/ejercicios-js/assets/main-Dfx825wd.js">
+    <link rel="stylesheet" crossorigin href="/ejercicios-js/assets/main-CRpPlKDL.css">
+  </head>
+  <body>
+    <div class="exercise8">
+      <!-- Decorative background blobs -->
+      <div class="exercise8__blob exercise8__blob--1" aria-hidden="true"></div>
+      <div class="exercise8__blob exercise8__blob--2" aria-hidden="true"></div>
+
+      <main class="exercise8__card">
+        <header class="exercise8__header">
+          <span class="exercise8__badge">
+            <i class="fa-solid fa-pen-nib"></i>
+            Text Analysis
+          </span>
+          <h1 class="exercise8__title">Analizador de <span class="exercise8__title-highlight">Texto</span></h1>
+          <p class="exercise8__desc">Escribe o pega tu texto para analizar palabras y caracteres en tiempo real.</p>
+        </header>
+
+        <div class="exercise8__editor">
+          <div class="exercise8__toolbar">
+            <div class="exercise8__stat">
+              <i class="fa-solid fa-font"></i>
+              <span id="contador-caracteres">Caracteres: 0</span>
+            </div>
+            <div class="exercise8__stat">
+              <i class="fa-solid fa-quote-right"></i>
+              <span id="contador-palabras">Palabras: 0</span>
+            </div>
+          </div>
+          <textarea id="texto" class="exercise8__textarea" placeholder="Empieza a escribir aquí..."></textarea>
+        </div>
+
+        <footer class="exercise8__footer">
+          <a href="../../index.html" class="exercise8__back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Volver al inicio
+          </a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

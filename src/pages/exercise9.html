@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ejercicio 9 - Lista de Tareas</title>
+    <script type="module" crossorigin src="/ejercicios-js/assets/exercise9-DsAM06HC.js"></script>
+    <link rel="modulepreload" crossorigin href="/ejercicios-js/assets/main-Dfx825wd.js">
+    <link rel="stylesheet" crossorigin href="/ejercicios-js/assets/main-CRpPlKDL.css">
+  </head>
+  <body>
+    <div class="exercise9">
+      <!-- Decorative background blobs -->
+      <div class="exercise9__blob exercise9__blob--1" aria-hidden="true"></div>
+      <div class="exercise9__blob exercise9__blob--2" aria-hidden="true"></div>
+
+      <main class="exercise9__card">
+        <header class="exercise9__header">
+          <span class="exercise9__badge">
+            <i class="fa-solid fa-list-check"></i>
+            Task Manager
+          </span>
+          <h1 class="exercise9__title">Mis <span class="exercise9__title-highlight">Tareas</span></h1>
+          <p class="exercise9__desc">Organiza tu día y mantén tus tareas bajo control.</p>
+        </header>
+
+        <div class="exercise9__form">
+          <input type="text" id="input-tarea" class="exercise9__input" placeholder="¿Qué tienes pendiente?">
+          <button id="btn-agregar" class="exercise9__add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+
+        <ul id="lista-tareas" class="exercise9__list">
+          <!-- Tasks will be added here -->
+        </ul>
+
+        <div class="exercise9__actions">
+          <button id="btn-limpiar" class="exercise9__clear-btn">
+            <i class="fa-solid fa-broom"></i>
+            Limpiar completadas
+          </button>
+        </div>
+
+        <footer class="exercise9__footer">
+          <a href="../../index.html" class="exercise9__back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Volver al inicio
+          </a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ejercicio 5 - Calculadora sencilla</title>
+    <script type="module" crossorigin src="/ejercicios-js/assets/exercise5-BmisB13j.js"></script>
+    <link rel="modulepreload" crossorigin href="/ejercicios-js/assets/main-Dfx825wd.js">
+    <link rel="stylesheet" crossorigin href="/ejercicios-js/assets/main-CRpPlKDL.css">
+  </head>
+  <body>
+    <div class="exercise5">
+      <!-- Decorative background blobs -->
+      <div class="exercise5__blob exercise5__blob--1" aria-hidden="true"></div>
+      <div class="exercise5__blob exercise5__blob--2" aria-hidden="true"></div>
+
+      <main class="exercise5__card">
+        <header class="exercise5__header">
+          <span class="exercise5__badge">
+            <i class="fa-solid fa-calculator"></i>
+            Arithmetic Engine
+          </span>
+          <h1 class="exercise5__title">Calculadora <span class="exercise5__title-highlight">Sencilla</span></h1>
+          <p class="exercise5__desc">Realiza operaciones básicas de forma rápida y sencilla.</p>
+        </header>
+
+        <div class="exercise5__calculator">
+          <div class="exercise5__display">
+            <div class="exercise5__inputs">
+              <input type="number" id="numero1" class="exercise5__input" placeholder="0">
+              <input type="number" id="numero2" class="exercise5__input" placeholder="0">
+            </div>
+            <div id="resultado" class="exercise5__result">Esperando operación...</div>
+          </div>
+
+          <div class="exercise5__operators">
+            <button id="btn-sumar" class="exercise5__op-btn" aria-label="Sumar">
+              <i class="fa-solid fa-plus"></i>
+              <span>Sumar</span>
+            </button>
+            <button id="btn-restar" class="exercise5__op-btn" aria-label="Restar">
+              <i class="fa-solid fa-minus"></i>
+              <span>Restar</span>
+            </button>
+            <button id="btn-multiplicar" class="exercise5__op-btn" aria-label="Multiplicar">
+              <i class="fa-solid fa-xmark"></i>
+              <span>Multiplicar</span>
+            </button>
+            <button id="btn-dividir" class="exercise5__op-btn" aria-label="Dividir">
+              <i class="fa-solid fa-divide"></i>
+              <span>Dividir</span>
+            </button>
+          </div>
+        </div>
+
+        <footer class="exercise5__footer">
+          <a href="../../index.html" class="exercise5__back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Volver al inicio
+          </a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

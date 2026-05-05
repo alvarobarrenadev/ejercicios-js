@@ -1,0 +1,1 @@
+import"./main-Dfx825wd.js";var e=0,t=document.getElementById(`contador`);document.getElementById(`btn-contar`).addEventListener(`click`,()=>{e++,t.textContent=e,t.classList.remove(`bump`),t.offsetWidth,t.classList.add(`bump`)});

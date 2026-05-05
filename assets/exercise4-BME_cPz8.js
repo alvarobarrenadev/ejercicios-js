@@ -1,0 +1,4 @@
+import"./main-Dfx825wd.js";var e=[`Perro`,`Gato`,`Pez`,`Loro`,`Conejo`,`Tortuga`,`Hamster`,`León`,`Tigre`,`Elefante`,`Jirafa`,`Cebra`,`Panda`,`Koala`,`Pingüino`],t=document.getElementById(`buscador`),n=document.getElementById(`lista`),r=e=>{if(n.innerHTML=``,e.length===0){let e=document.createElement(`li`);e.className=`exercise4__empty-msg`,e.textContent=`No se encontraron animales`,n.appendChild(e);return}e.forEach(e=>{let t=document.createElement(`li`);t.className=`exercise4__item`,t.style.animationDelay=`${Math.random()*.2}s`,t.innerHTML=`
+      <i class="fa-solid fa-paw exercise4__item-icon"></i>
+      <span class="exercise4__item-name">${e}</span>
+    `,n.appendChild(t)})};r(e),t.addEventListener(`input`,()=>{let n=t.value.toLowerCase();r(e.filter(e=>e.toLowerCase().includes(n)))});
